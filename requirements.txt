@@ -1,13 +1,13 @@
+pandas==2.3.0
+numpy==2.3.1
+scikit-learn==1.7.0
+Flask==2.3.2
+gunicorn==21.2.0
+matplotlib==3.10.3
+seaborn==0.13.2
 Cython>=0.29
+pickle5
 pip>=23.0
 setuptools>=65.0
 wheel>=0.38
-Flask==2.3.2
-gunicorn==21.2.0
-pandas==1.5.3
-numpy==1.24.3
-scikit-learn==1.2.2
-matplotlib==3.7.1
-seaborn==0.13.2
-pickle5
 --only-binary :all:
