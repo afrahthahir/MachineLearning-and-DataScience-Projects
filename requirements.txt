@@ -1,0 +1,12 @@
+flask
+gunicorn
+pickle5
+scikit-learn
+pandas
+numpy
+json
+warnings
+seaborn
+matplotlib
+sklearn
+nginx
