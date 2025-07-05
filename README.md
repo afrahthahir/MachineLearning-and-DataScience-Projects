@@ -123,3 +123,9 @@ Second Project UI:
 http://ec2-13-60-97-207.eu-north-1.compute.amazonaws.com/project2/app.html
 ```
 
+🔍 Monitoring & Logs
+```bash
+sudo supervisorctl status
+sudo tail -f /var/log/bangalore.out.log
+sudo tail -f /var/log/celebapp.out.log
+```
