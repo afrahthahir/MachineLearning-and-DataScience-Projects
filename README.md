@@ -3,12 +3,6 @@
 
 This guide documents how two independent Flask projects were deployed on a single EC2 instance, served via Gunicorn, managed by Supervisor, and reverse-proxied using Nginx.
 
-
-
-# 🚀 Multi-Flask App Deployment on AWS EC2 with Nginx + Supervisor
-
-This guide documents how two independent Flask projects were deployed on a single EC2 instance, served via Gunicorn, managed by Supervisor, and reverse-proxied using Nginx.
-
 ## 🧰 EC2 Setup
 
 1. Launch an Ubuntu EC2 instance.
@@ -79,7 +73,7 @@ Then restart Nginx:
 sudo nginx -t && sudo systemctl reload nginx
 ```
 # 🔄 Supervisor Configuration
-1. Bangalore App
+1. Bangalore House Price Predictor App
 ```bash
 sudo nano /etc/supervisor/conf.d/bangalore.conf
 ```
