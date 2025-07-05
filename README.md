@@ -1,4 +1,4 @@
-✅ README.md for Deployment of Two Flask Projects on AWS EC2 with Nginx + Supervisor
+✅ Deployment of Two Flask Projects on AWS EC2 with Nginx + Supervisor
 markdown
 Copy
 Edit

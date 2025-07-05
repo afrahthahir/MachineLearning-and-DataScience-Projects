@@ -4,7 +4,7 @@ Dropzone.autoDiscover = false;
 
 function init() {
     let dz = new Dropzone("#dropzone", {
-        url: "/",
+        url: "#",
         maxFiles: 1,
         addRemoveLinks: true,
         dictDefaultMessage: "Some Message",

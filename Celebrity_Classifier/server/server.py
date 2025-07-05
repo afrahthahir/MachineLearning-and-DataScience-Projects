@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import util
 
+util.load_saved_artifacts()
 app = Flask(__name__)
 
 @app.route("/classify_image", methods = ["GET", "POST"])
@@ -14,5 +15,4 @@ def classify_image():
 
 if __name__ == "__main__":
     print("Starting flask server for celebrity classifier")
-    util.load_saved_artifacts()
-    app.run(port=5000)
+    app.run(host="0.0.0.0", port=5001)
